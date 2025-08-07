@@ -2,6 +2,16 @@
 
 This project implements a robust computer vision system to detect, track, and count people moving through a specific area in a video. It also generates a heatmap to visualize movement intensity across the frame. This can be applied to retail analytics, crowd monitoring, and smart surveillance systems.
 
+
+## Input/Output Files
+
+| File             | Description                                |
+|------------------|--------------------------------------------|
+| `people-walking.mp4` [Link](https://drive.google.com/file/d/1IiM2T7Lh0sdg4KVmfExsiN04vWxJYFq7/view?usp=sharing)| Input video file with human activity     |
+| `output_video.mp4` [Link](https://drive.google.com/file/d/1l998QNjg42kQCo2G5p1-Ck3IZSF0WznY/view?usp=sharing)  | Annotated video with boxes and counters  |
+| `heatmap.png` [Link](https://github.com/mdmahamudmredha/People-Flow-Detection-using-Object-Tracking-Heatmap-Visualization/blob/main/heatmap_enhanced.png)       | Generated heatmap of footfall patterns   |
+
+
 ## Key Objectives
 
 - Detect individuals using a pre-trained YOLOv8 object detector.
@@ -60,15 +70,6 @@ Counts are tracked in real-time and updated on the output frame.
 - Highlights zones with higher traffic density.
 
 
-## Input/Output Files
-
-| File             | Description                                |
-|------------------|--------------------------------------------|
-| `people-walking.mp4` | Input video file with human activity     |
-| `output_video.mp4`   | Annotated video with boxes and counters  |
-| `heatmap.png`        | Generated heatmap of footfall patterns   |
-
-
 ## Sample Output (Visual Description)
 
 - **Output Video**
@@ -79,6 +80,14 @@ Counts are tracked in real-time and updated on the output frame.
 - **Heatmap**
   - Color gradient showing footfall concentration.
   - Brighter areas indicate high movement zones.
+
+
+## Potential Use Cases
+- Retail store customer flow analysis
+- Entry-exit management in public venues
+- Urban footfall monitoring
+- Smart office space utilization
+- Queue length and waiting time optimization
 
 ---
 
